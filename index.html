@@ -1,20 +1,58 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: #121212;
+            color: #FFFFFF;
+        }
+
+        a {
+            color: #61dafb;
+        }
+
+        #team_members {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .member {
+            text-align: center;
+        }
+
+        .member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
     <div id="team_members">
-        <div id="kaleb">
+        <div class="member" id="kaleb">
             <h2>Kaleb Wells</h2>
-            <img src="images/headshot_kaleb.jpg">
-            <a href="https://wells2kb.github.io/">Personal Homepage</a>
+            <img src="images/headshot_kaleb.jpg" alt="Kaleb Wells">
+            <p><a href="https://wells2kb.github.io/">Personal Homepage</a></p>
         </div>
-        <div id="nathan">
+        <div class="member" id="nathan">
             <h2>Nathan Grilliot</h2>
-            <img src="images/headshot_nathan.jpg">
-            <a href="https://grillinr.github.io/">Personal Homepage</a>
+            <img src="images/headshot_nathan.jpg" alt="Nathan Grilliot">
+            <p><a href="https://grillinr.github.io/">Personal Homepage</a></p>
         </div>
-        <div id="derek">
-            <h2></h2>
-            <img src="">
-            <a href="">Personal Homepage</a>
+        <div class="member" id="derek">
+            <h2>Derek Corniello</h2>
+            <img src="images/headshot_derek.jpg" alt="Derek Corniello">
+            <p><a href="https://derekcorniello.github.io">Personal Homepage</a></p>
+            <hr>
+            University of Cincinnati<br>
+            B.S. of Computer Science, MEng. of Software Engineering<br>
+            College of Engineering and Applied Science<br>
+            Graduating Class of 2027<br>
         </div>
     </div>
+</body>
+
 </html>
