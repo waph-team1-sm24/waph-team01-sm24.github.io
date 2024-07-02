@@ -3,3 +3,4 @@
 ## Members
 
 - Nathan Grilliot
+- Derek Corniello
